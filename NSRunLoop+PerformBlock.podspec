@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "NSRunLoop+PerformBlock"
+  s.name         = "NSRunLoop-PerformBlock"
   s.version      = "0.2.0"
   s.summary      = "category on NSRunLoop that adds performBlockAntWait: method."
   s.homepage     = "https://github.com/anarjisto/NSRunLoop-PerformBlock"
