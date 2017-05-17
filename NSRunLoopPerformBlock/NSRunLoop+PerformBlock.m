@@ -6,7 +6,7 @@ NSString *const NSRunloopTimeoutException = @"NSRunloopTimeoutException";
 
 - (void)performBlockAndWait:(void (^)(BOOL *))block
 {
-    [self performBlockAndWait:block timeoutInterval:10.0];
+    [self performBlockAndWait:block timeoutInterval:30.0];
 }
 
 - (void)performBlockAndWait:(void (^)(BOOL *))block timeoutInterval:(NSTimeInterval)timeoutInterval
